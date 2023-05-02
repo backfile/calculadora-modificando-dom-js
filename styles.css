@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: sans-serif;
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.input {
+  height: 40px;
+  border: none;
+  box-shadow: 0 1px 6px #333;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+.btn {
+  width: 100px;
+  height: 40px;
+  border: none;
+  box-shadow: 0 1px 4px red;
+}
+
+.btn:hover {
+  animation: boton 2s;
+}
+
+@keyframes boton {
+  50% {
+    transform: scale(1.2);
+  }
+}
+
+.resultado {
+  margin-top: 20px;
+  font-size: 25px;
+}
